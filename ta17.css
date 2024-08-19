@@ -2,23 +2,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;  /*Segun lo que aparece en pantalla*/
 }
+
 .tarjeta {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*Los items del contenedor aparecen de arriba a abajo asi*/
+    text-align: center;
+
     border-radius: 1px;
     width: 300px;
     padding: 20px;
-    background-color: blueviolet;
-    border-radius: 30px;
-    text-align: center;
+
+    background-color:crimson; 
 }
 .avatar{
     position: absolute;
     top: -50px;
-    left: -15px;
+    left: -15px; /*A ojo*/
     width: 100px;
     height: 100px;
     border-radius: 30px;
