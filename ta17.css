@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.tarjeta {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    width: 300px;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    text-align: center;
+}
+.avatar{
+    position: absolute;
+    top: -50px;
+    left: -15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+button{
+    background-color: black;
+    color: white;
+}
